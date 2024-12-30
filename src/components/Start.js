@@ -3,22 +3,21 @@ import '../styles/Start.css';
 
 function Start() {
   return (
-    <section id="start">
-        <h1>
-        How It All Started..
-
+    <section id="start" className="start-section">
+      <div className="start-content">
+        <h1 className="start-title">
+          How It All Started...
         </h1>
-
-      <h3>
-        I was beaten by a friend in chess once. Once. He was a computer science student I met in my first year of 
-        university while I was studying Bio-Chemistry. He created a bot that outplayed me. This changed everything. Fast forward 4 years I am about to complete
-        my final term at the University of Victoria with a degree in Computer Science; Software Systems. I am very thankful for 
-        that chess bot; computer science has allowed me to bring my creative ideas to life to share with all of you.
-        
-
-      </h3>
-       
-    
+        <p className="start-description">
+          I was beaten by a friend in chess once. Once. He was a computer science student I met during my first year of 
+          university while I was studying Bio-Chemistry. He created a bot that outplayed me. This changed everything.
+        </p>
+        <p className="start-description">
+          Fast forward four years, I am about to complete my final term at the University of Victoria with a degree in 
+          Computer Science: Software Systems. I am very thankful for that chess bot; computer science has allowed me 
+          to bring my creative ideas to life and share them with all of you.
+        </p>
+      </div>
     </section>
   );
 }

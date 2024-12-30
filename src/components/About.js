@@ -11,7 +11,7 @@ function About() {
       I'm a software developer focused on creating intuitive and clean applications. With expertise in both 
       back-end and front-end 
       development, as well as data analytics and machine learning.
-      I love all things tech and am ready to jump into the world of technology.
+      I love all things tech and eager to jump into the world of technology!
       </p>
     </div>
   );

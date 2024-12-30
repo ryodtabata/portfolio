@@ -1,7 +1,7 @@
 /* Set a base font style and dark theme background for the whole app */
 body {
   background-color: #1e1e1e; /* Dark background for the entire page */
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
 
 /* Fixed left section for About Me */
 .fixed-section {
-  flex: 0 0 40%; /* 40% width for the left section */
+  flex: 0 0 60%; /* 40% width for the left section */
   position: fixed;
   top: 0;
   left: 0;
@@ -41,6 +41,7 @@ body {
   padding: 40px 30px;
   background-color: #333;
   color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Styling list items with black text */

@@ -1,4 +1,26 @@
 /* src/index.css */
+
+/* src/index.css */
+
+:root {
+  --color-primary: #2c3e50; /* Dark Blue */
+  --color-secondary: #555555; /* Dark Gray */
+  --color-background: #ffffff; /* White */
+  --color-accent: #3498db; /* Accent Blue */
+  --color-light: #f4f4f9; /* Light Gray */
+  --font-primary: 'Inter', sans-serif;
+  --transition-duration: 0.3s;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-light);
+  color: var(--color-secondary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
